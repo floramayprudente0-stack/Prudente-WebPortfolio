@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #2c1234;
+  color: #fff;
+  line-height: 1.6;
+  /* width: 1200px;
+  justify-self: center; */
+}
+
+a {
+  text-decoration: none;
+  color: pink;
+}
+
+/* Navbar */
+header {
+  background: #2f1726;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+#contact{
+  background: #2f1726;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+#about{
+  background: #460448;
+  padding: 15px 30px;
+  border-color: #3e0c40;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: pink;
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a:hover {
+  color: #ff66b2;
+}
+
+/* Home Section */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  border-color: #2c1234;
+  text-align: center;
+  background: linear-gradient(to bottom right, #2a2a2a, #111);
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border: 5px solid pink;
+  box-shadow: 0 0 46px #ff66b2;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 15px;
+  justify-self: center;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.highlight {
+  color: #ff66b2;
+}
+
+button {
+  background: pink;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff66b2;
+  color: #fff;
+}
+
+/* Section Styling */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.projects .project-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: #2a2a2a;
+  padding: 20px;
+  border: 2px solid pink;
+  border-radius: 8px;
+  width: 200px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  border-color: #ff66b2;
+}
+#des{
+  width: 500px;
+  border-color: #ff66b2;
+  border-style: solid;
+  border-radius: 20px;
+  
+}
